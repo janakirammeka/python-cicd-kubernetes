@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   labels:
     run: python-docker-thedatabasengineer1
-  name: python-docker-thedatabasengineer1
+    name: python-docker-thedatabasengineer1
 spec:
   nodeSelector:
     python: docker-thedatabasengineer
@@ -24,7 +24,7 @@ kind: Service
 metadata:
     labels:
     app: python-docker-thedatabasengineer1
-  name: python-docker-thedatabasengineer1
+    name: python-docker-thedatabasengineer1
 spec:
   ports:
   - name: "5000"
