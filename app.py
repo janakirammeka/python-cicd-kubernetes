@@ -12,7 +12,7 @@ def index():
         fahrenheit = ""
     return (
             """<form action="" method="get">
-                    Celsius temperature: <input type="text" name="celsius">
+                    celsius temperature: <input type="text" name="Celsius">
                     <input type="submit" value="Convert to Fahrenheit">
                 </form>"""
             + "Fahrenheit: "
