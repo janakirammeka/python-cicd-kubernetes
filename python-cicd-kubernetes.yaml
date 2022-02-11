@@ -1,6 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
+  namespace: jenkins
   labels:
     run: python-docker-thedatabasengineer1
     name: python-docker-thedatabasengineer1
@@ -22,6 +23,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
+  namespace: jenkins
   labels:
     app: python-docker-thedatabasengineer1
     name: python-docker-thedatabasengineer1
