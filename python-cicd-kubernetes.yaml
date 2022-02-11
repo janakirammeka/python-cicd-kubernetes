@@ -22,8 +22,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  
-  labels:
+    labels:
     app: python-docker-thedatabasengineer1
   name: python-docker-thedatabasengineer1
 spec:
@@ -36,5 +35,3 @@ spec:
   selector:
     run: python-docker-thedatabasengineer1
   type: NodePort
-status:
-  loadBalancer: {}
